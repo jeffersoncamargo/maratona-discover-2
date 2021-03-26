@@ -7,6 +7,8 @@ Para sua avaliação do meu código, peço que foque no back-end.
 
 No momento do ingresso nessa maratona, me considero totalmente à vontade com HTML, CSS e JavaScript. Meu intuito aqui é conhecer o node como servidor principal de uma aplicação, além da utilização do express dentro da própria aplicação que serve o front-end para disposição dos serviços de backend.
 
+Ao início, resolvi modificar a estrutura padrão dos arquivos, separando os arquivos de server e os estáticos, através de uma pasta public. Mais tarde o curso recomendou essa criação.
+
 ## Instalação em ambiente local
 
 ```
