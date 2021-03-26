@@ -16,10 +16,11 @@ Consegui terminar, por dedução, os códigos com antecedência. Adicionalmente,
 ## Instalação em ambiente local
 
 ```
-cd backend
-yarn
-yarn dev
+npm i
+npm run dev
 ```
+
+*O servidor, por padrão, roda em http://127.0.0.1:3000*
 
 # README ORIGINAL
 
