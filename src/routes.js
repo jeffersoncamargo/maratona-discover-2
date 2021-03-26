@@ -14,7 +14,16 @@ router.get('/jobs/edit/:id', (req, res, id) => {
 })
 
 router.get('/profile', (req, res) => {
-    return res.render('profile')
+    return res.render('profile', {
+        profile: {
+            "name": "Jefferson Camargo",
+            "avatar": "https://avatars.githubusercontent.com/u/2170855?v=4",
+            "monthly-budget": "3000,00",
+            "hours-per-day": 6,
+            "days-per-week": 5,
+            "vacation-per-year": 5
+        }
+    })
 })
 
 module.exports = router
